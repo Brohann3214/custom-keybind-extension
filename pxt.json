@@ -1,5 +1,5 @@
 {
-    "name": "Custom Keybnid Extension",
+    "name": "Custom Keybind Extension",
     "description": "",
     "dependencies": {
         "device": "*"
