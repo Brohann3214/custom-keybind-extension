@@ -1,6 +1,6 @@
 //% weight=98 color=#39296e icon="\uf1de"
 namespace Keybinds {
-    export enum MakeyMakeyKey {
+    export enum CustomKey {
         //% block="UP ARROW"
         UP = keymap.KeyCode.UpArrow,
         //% block="DOWN ARROW"
@@ -102,105 +102,105 @@ namespace Keybinds {
 
     }
 
-    function MakeyMakeyKeyToKeyCode(makeyMakeyKey: MakeyMakeyKey) {
-        switch (makeyMakeyKey) {
-            case (MakeyMakeyKey.UP):
+    function CustomKeyToKeyCode(customKey: CustomKey) {
+        switch (customKey) {
+            case (CustomKey.UP):
                 return keymap.KeyCode.UpArrow
-            case (MakeyMakeyKey.DOWN):
+            case (CustomKey.DOWN):
                 return keymap.KeyCode.DownArrow
-            case (MakeyMakeyKey.LEFT):
+            case (CustomKey.LEFT):
                 return keymap.KeyCode.LeftArrow
-            case (MakeyMakeyKey.RIGHT):
+            case (CustomKey.RIGHT):
                 return keymap.KeyCode.RightArrow
-            case (MakeyMakeyKey.SPACE):
+            case (CustomKey.SPACE):
                 return keymap.KeyCode.Space
-            case (MakeyMakeyKey.LEFT_CLICK):
+            case (CustomKey.LEFT_CLICK):
                 return keymap.KeyCode.MouseLeftButton
-            case (MakeyMakeyKey.RIGHT_CLICK):
+            case (CustomKey.RIGHT_CLICK):
                 return keymap.KeyCode.MouseRightButton
-            case (MakeyMakeyKey.Q):
+            case (CustomKey.Q):
                 return keymap.KeyCode.Q
-            case (MakeyMakeyKey.W):
+            case (CustomKey.W):
                 return keymap.KeyCode.W
-            case (MakeyMakeyKey.E):
+            case (CustomKey.E):
                 return keymap.KeyCode.E
-            case (MakeyMakeyKey.R):
+            case (CustomKey.R):
                 return keymap.KeyCode.R
-            case (MakeyMakeyKey.T):
+            case (CustomKey.T):
                 return keymap.KeyCode.T
-            case (MakeyMakeyKey.Y):
+            case (CustomKey.Y):
                 return keymap.KeyCode.Y
-            case (MakeyMakeyKey.U):
+            case (CustomKey.U):
                 return keymap.KeyCode.U
-            case (MakeyMakeyKey.I):
+            case (CustomKey.I):
                 return keymap.KeyCode.I
-            case (MakeyMakeyKey.O):
+            case (CustomKey.O):
                 return keymap.KeyCode.O
-            case (MakeyMakeyKey.P):
+            case (CustomKey.P):
                 return keymap.KeyCode.P
-            case (MakeyMakeyKey.A):
+            case (CustomKey.A):
                 return keymap.KeyCode.A
-            case (MakeyMakeyKey.S):
+            case (CustomKey.S):
                 return keymap.KeyCode.S
-            case (MakeyMakeyKey.D):
+            case (CustomKey.D):
                 return keymap.KeyCode.D
-            case (MakeyMakeyKey.F):
+            case (CustomKey.F):
                 return keymap.KeyCode.F
-            case (MakeyMakeyKey.G):
+            case (CustomKey.G):
                 return keymap.KeyCode.G
-            case (MakeyMakeyKey.H):
+            case (CustomKey.H):
                 return keymap.KeyCode.H
-            case (MakeyMakeyKey.J):
+            case (CustomKey.J):
                 return keymap.KeyCode.J
-            case (MakeyMakeyKey.K):
+            case (CustomKey.K):
                 return keymap.KeyCode.K
-            case (MakeyMakeyKey.L):
+            case (CustomKey.L):
                 return keymap.KeyCode.L
-            case (MakeyMakeyKey.Z):
+            case (CustomKey.Z):
                 return keymap.KeyCode.Z
-            case (MakeyMakeyKey.X):
+            case (CustomKey.X):
                 return keymap.KeyCode.X
-            case (MakeyMakeyKey.C):
+            case (CustomKey.C):
                 return keymap.KeyCode.C
-            case (MakeyMakeyKey.V):
+            case (CustomKey.V):
                 return keymap.KeyCode.V
-            case (MakeyMakeyKey.B):
+            case (CustomKey.B):
                 return keymap.KeyCode.B
-            case (MakeyMakeyKey.N):
+            case (CustomKey.N):
                 return keymap.KeyCode.N
-            case (MakeyMakeyKey.M):
+            case (CustomKey.M):
                 return keymap.KeyCode.M
-            case (MakeyMakeyKey.ONE):
+            case (CustomKey.ONE):
                 return keymap.KeyCode.One
-            case (MakeyMakeyKey.TWO):
+            case (CustomKey.TWO):
                 return keymap.KeyCode.Two
-            case (MakeyMakeyKey.THREE):
+            case (CustomKey.THREE):
                 return keymap.KeyCode.Three
-            case (MakeyMakeyKey.FOUR):
+            case (CustomKey.FOUR):
                 return keymap.KeyCode.Four
-            case (MakeyMakeyKey.FIVE):
+            case (CustomKey.FIVE):
                 return keymap.KeyCode.Five
-            case (MakeyMakeyKey.SIX):
+            case (CustomKey.SIX):
                 return keymap.KeyCode.Six
-            case (MakeyMakeyKey.SEVEN):
+            case (CustomKey.SEVEN):
                 return keymap.KeyCode.Seven
-            case (MakeyMakeyKey.EIGHT):
+            case (CustomKey.EIGHT):
                 return keymap.KeyCode.Eight
-            case (MakeyMakeyKey.NINE):
+            case (CustomKey.NINE):
                 return keymap.KeyCode.Nine
-            case (MakeyMakeyKey.ZERO):
+            case (CustomKey.ZERO):
                 return keymap.KeyCode.Zero
-            case (MakeyMakeyKey.TILDE):
+            case (CustomKey.TILDE):
                 return keymap.KeyCode.Tilde
-            case (MakeyMakeyKey.MINUS):
+            case (CustomKey.MINUS):
                 return keymap.KeyCode.Subtract
-            case (MakeyMakeyKey.PLUS):
+            case (CustomKey.PLUS):
                 return keymap.KeyCode.Add
-            case (MakeyMakeyKey.SHIFT):
+            case (CustomKey.SHIFT):
                 return keymap.KeyCode.Shift
-            case (MakeyMakeyKey.ALT):
+            case (CustomKey.ALT):
                 return keymap.KeyCode.Alt
-            case (MakeyMakeyKey.TAB):
+            case (CustomKey.TAB):
                 return keymap.KeyCode.Tab
         }
         return null
@@ -220,20 +220,20 @@ namespace Keybinds {
     //% block="set simulator keys for $playerNumber \n UP $buttonUp \n DOWN $buttonDown \n LEFT $buttonLeft \n RIGHT $buttonRight \n A $buttonA \n B $buttonB"    
     export function setSimulatorKeymap(
         playerNumber: PlayerNumber = 1,
-        buttonUp: MakeyMakeyKey = MakeyMakeyKey.UP,
-        buttonDown: MakeyMakeyKey = MakeyMakeyKey.DOWN,
-        buttonLeft: MakeyMakeyKey = MakeyMakeyKey.LEFT,
-        buttonRight: MakeyMakeyKey = MakeyMakeyKey.RIGHT,
-        buttonA: MakeyMakeyKey = MakeyMakeyKey.SPACE,
-        buttonB: MakeyMakeyKey = MakeyMakeyKey.LEFT_CLICK) {
+        buttonUp: CustomKey = CustomKey.UP,
+        buttonDown: CustomKey = CustomKey.DOWN,
+        buttonLeft: CustomKey = CustomKey.LEFT,
+        buttonRight: CustomKey = CustomKey.RIGHT,
+        buttonA: CustomKey = CustomKey.SPACE,
+        buttonB: CustomKey = CustomKey.LEFT_CLICK) {
         keymap.setPlayerKeys(
             playerNumber,
-            MakeyMakeyKeyToKeyCode(buttonUp),
-            MakeyMakeyKeyToKeyCode(buttonDown),
-            MakeyMakeyKeyToKeyCode(buttonLeft),
-            MakeyMakeyKeyToKeyCode(buttonRight),
-            MakeyMakeyKeyToKeyCode(buttonA),
-            MakeyMakeyKeyToKeyCode(buttonB)
+            CustomKeyToKeyCode(buttonUp),
+            CustomKeyToKeyCode(buttonDown),
+            CustomKeyToKeyCode(buttonLeft),
+            CustomKeyToKeyCode(buttonRight),
+            CustomKeyToKeyCode(buttonA),
+            CustomKeyToKeyCode(buttonB)
         )
     }
 
@@ -243,20 +243,20 @@ namespace Keybinds {
     //% block="use default keys"
     export function setMakeyMakeyDefaults() {
         setSimulatorKeymap(1,
-            MakeyMakeyKey.UP,
-            MakeyMakeyKey.DOWN,
-            MakeyMakeyKey.LEFT,
-            MakeyMakeyKey.RIGHT,
-            MakeyMakeyKey.Z,
-            MakeyMakeyKey.X
+            CustomKey.UP,
+            CustomKey.DOWN,
+            CustomKey.LEFT,
+            CustomKey.RIGHT,
+            CustomKey.Z,
+            CustomKey.X
         )
         setSimulatorKeymap(2,
-            MakeyMakeyKey.W,
-            MakeyMakeyKey.A,
-            MakeyMakeyKey.S,
-            MakeyMakeyKey.D,
-            MakeyMakeyKey.Q,
-            MakeyMakeyKey.E
+            CustomKey.W,
+            CustomKey.A,
+            CustomKey.S,
+            CustomKey.D,
+            CustomKey.Q,
+            CustomKey.E
         )
     }
 }

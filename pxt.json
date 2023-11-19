@@ -1,7 +1,6 @@
 {
     "name": "Custom Keybind Extension",
     "description": "",
-    "icon": "./icon.png",
     "dependencies": {
         "device": "*"
     },
@@ -18,5 +17,6 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "icon": "./icon.png"
 }
