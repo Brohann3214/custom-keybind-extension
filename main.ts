@@ -101,6 +101,8 @@ namespace Keybinds {
         TAB = keymap.KeyCode.Tab,
         //% block="ENTER"
         ENTER = keymap.KeyCode.Enter,
+        //% block="BACKSPACE"
+        BACKSPACE = keymap.KeyCode.Backspace,
 
     }
 
@@ -206,6 +208,8 @@ namespace Keybinds {
                 return keymap.KeyCode.Tab
             case (CustomKey.ENTER):
                 return keymap.KeyCode.Enter
+            case (CustomKey.BACKSPACE):
+                return keymap.KeyCode.Backspace
         }
         return null
     }
