@@ -40,7 +40,7 @@ namespace Keybinds {
         //% block="S"
         S = keymap.KeyCode.S,
         //% block="D"
-        D = keymap.KeyCode.F,
+        D = keymap.KeyCode.D,
         //% block="F"
         F = keymap.KeyCode.F,
         //% block="G"
