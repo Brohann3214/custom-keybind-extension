@@ -99,6 +99,8 @@ namespace Keybinds {
         ALT = keymap.KeyCode.Alt,
         //% block="TAB"
         TAB = keymap.KeyCode.Tab,
+        //% block="ENTER"
+        ENTER = keymap.KeyCode.Enter,
 
     }
 
@@ -202,6 +204,8 @@ namespace Keybinds {
                 return keymap.KeyCode.Alt
             case (CustomKey.TAB):
                 return keymap.KeyCode.Tab
+            case (CustomKey.ENTER):
+                return keymap.KeyCode.Enter
         }
         return null
     }
